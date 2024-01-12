@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+
+    <h1>Travel reservation form</h1>
+    <h3>* denotes mandotory</h3>
+
+    <form action="#">
+        <div>
+            <label for="fullName">Full name*:</label><br>
+            <input type="text" id="fullName" placeholder="FirstName LastName" name="fullname">
+        </div>
+        <div>
+            <label for="email">Email address*:</label><br>
+            <input type="email" id="email" name="email" placeholder="EMAIL_ADDRESS">
+        </div>
+        <div>
+            <label for="dest">Select Tour Package*:</label><br>
+            <select name="dest" id="dest">
+                <option value="goa">Goa</option>
+                <option value="dubai">dubai</option>
+                <option value="maldives">maldives</option>
+            </select>
+        </div>
+        <div>
+            <label for="arrivalDate">Arrival date*:</label><br>
+            <input type="date" name="arrivalDate" id="arrivalDate">
+        </div>
+        <div>
+            <label for="numberOfPerson">Number of person*:</label><br>
+            <input type="text" name="numberOfPerson" id="numberOfPerson" placeholder="UNKNOWN_TYPE">
+        </div>
+        <div>
+            <label for="avail">What would you want to avail?*:</label><br>
+            Boarding<input type="checkbox" name="avail" id="avail" value="boarding"><br>
+            Fooding<input type="checkbox" name="avail" id="avail" value="fooding"><br>
+            Sight seeing<input type="checkbox" name="avail" id="avail" value="sightSeeing">
+        </div>
+        <div>
+            <label for="couponCode">Discount Coupon code:</label><br>
+            <input type="text" name="couponCode" id="couponCode" value="UNKNOWN_TYPE">
+        </div>
+        <div>
+            <label for="termsCheckbox">Terms and conditions*</label> <br>
+            <input type="radio" name="termsCheckbox" id="termsCheckbox" checked> I agree
+            <input type="radio" name="termsCheckbox" id="termsCheckbox"> I disagree
+        </div>
+        <input type="submit" value="Complete reservation">
+    </form>
+
+</body>
+
+</html>
