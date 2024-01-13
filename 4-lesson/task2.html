@@ -39,9 +39,15 @@
         </div>
         <div>
             <label for="avail">What would you want to avail?*:</label><br>
-            Boarding<input type="checkbox" name="avail" id="avail" value="boarding"><br>
-            Fooding<input type="checkbox" name="avail" id="avail" value="fooding"><br>
-            Sight seeing<input type="checkbox" name="avail" id="avail" value="sightSeeing">
+            <label for="boarding">
+                Boarding<input type="checkbox" name="avail" id="boarding" value="boarding"><br>
+            </label>
+            <label for="fooding">
+                Fooding<input type="checkbox" name="avail" id="fooding" value="fooding"><br>
+            </label>
+            <label for="sightSeeing">
+                Sight seeing<input type="checkbox" name="avail" id="sightSeeing" value="sightSeeing">
+            </label>
         </div>
         <div>
             <label for="couponCode">Discount Coupon code:</label><br>
@@ -49,8 +55,12 @@
         </div>
         <div>
             <label for="termsCheckbox">Terms and conditions*</label> <br>
-            <input type="radio" name="termsCheckbox" id="termsCheckbox" checked> I agree
-            <input type="radio" name="termsCheckbox" id="termsCheckbox"> I disagree
+            <label for="agree">
+                <input type="radio" name="termsCheckbox" id="agree" checked> I agree
+            </label>
+            <label for="disagree">
+                <input type="radio" name="termsCheckbox" id="disagree"> I disagree
+            </label>
         </div>
         <input type="submit" value="Complete reservation">
     </form>
