@@ -1,0 +1,9 @@
+.border1 {
+    border: 2px solid orange;
+}
+.border2 {
+    border: 4px dashed green;
+}
+.border3 {
+    border: 2px dotted black;
+}

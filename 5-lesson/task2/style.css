@@ -1,0 +1,22 @@
+/* default */
+.align-left {
+    text-align: left;
+}
+
+
+div {
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-justify {
+    text-align: justify;
+}
