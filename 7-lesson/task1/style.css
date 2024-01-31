@@ -1,0 +1,34 @@
+.d-flex {
+    display: flex;
+}
+
+.three-boxes div,
+.four-boxes div {
+    width: 100%;
+    height: 200px;
+    background: pink;
+    margin: 5px;
+}
+
+.parent {
+    margin: 5px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.yellow-box {
+    width: 180px;
+    height: 150px;
+    background-color: yellow;
+}
+
+.four-boxes {
+    width: 100%;
+    flex-direction: column;
+}
+
+.four-boxes div {
+    background-color: rgb(92, 138, 24);
+}

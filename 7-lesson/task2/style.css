@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.title {
+    background-color: blueviolet;
+    color: white;
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+article {
+    margin: 10px;
+    background-color: aqua;
+    padding: 20px 10px;
+}
+
+.bg-box p,
+.bg {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
