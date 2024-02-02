@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap');
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.title-text {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.list p {
+    margin: 0 22px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.active {
+    /* text-decoration: underline 2px; for some browsers */
+    border-bottom: 3px solid;
+    padding-bottom: 1px;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 12px;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-box div {
+    width: 45%;
+    padding: 50px 0 80px;
+}
+
+.card-box div,
+.card {
+    background-color: #f4f4f4;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.main-card,
+.card-box {
+    width: 100%;
+}
+
+.main-card p {
+    margin-top: 70px;
+    font-size: 23px;
+}
