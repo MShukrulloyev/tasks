@@ -1,0 +1,47 @@
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.card {
+    width: 450px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: .5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    color: #999;
+}
+
+.card .btn {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+    transition: .5s;
+}
+
+.card .btn:hover {
+    background-color: #333;
+}

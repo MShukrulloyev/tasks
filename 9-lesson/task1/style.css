@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+}
+
+.card div {
+    margin: 8px 0 60px;
+    border-radius: 2px;
+    width: 130px;
+    height: 130px;
+}
+
+.shadow-4 {
+    box-shadow: 0 7px 7px -2px #999;
+}
+
+.shadow-5 {
+    box-shadow: 0 10px 10px -2px #999;
+}
+
+.shadow-6 {
+    box-shadow: 0 15px 15px #999;
+}
+
+.shadow-sharp {
+    box-shadow: 0 6px 6px -1px #999;
+}
+
+.shadow-diffuse {
+    box-shadow: 0 9px 10px #999;
+}
+
+.shadow-dreamy {
+    box-shadow: 0 10px 30px #aaa;
+}
+
+.shadow-shorter {
+    box-shadow: 0 8px 10px #999;
+}
+
+.shadow-longer {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}

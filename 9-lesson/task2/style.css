@@ -1,0 +1,18 @@
+button {
+    margin: 50px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    font-family: serif;
+}
+
+button:hover {
+    background-color: #9f9e9f;
+}
+
+button:active {
+    outline: 3px solid #7bc4ff;
+    background-color: #2e2d2f;
+    border: 1px solid #2e2d2f;
+    color: white;
+}
