@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 330px;
+    background-image: linear-gradient(blueviolet, rgb(178, 126, 227), blueviolet);
+    box-shadow: 0 20px 20px 5px #777;
+    transition: .5s all;
+
+    transform: perspective(700px) rotateX(45deg) translate(0, -100px);
+}
+
+.card-1 {
+    transform: perspective(700px) rotateX(45deg) translate(0, -100px) skewX(-13deg);
+}
+
+.card-2 {
+    background-image: linear-gradient(rgb(206, 151, 33), rgb(220, 192, 131), rgb(206, 151, 33));
+}
+
+.card-3 {
+    transform: perspective(700px) rotateX(45deg) translate(0, -100px) skewX(13deg);
+}
+
+.card:hover {
+    box-shadow: 0 30px 30px #777;
+    transform: rotateX(0deg) scale(1.2);
+}
