@@ -1,0 +1,72 @@
+.wrapper {
+    height: 100vh;
+    gap: 20px;
+}
+
+.wrapper,
+.card__child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: min(200px, 25%);
+    aspect-ratio: 1;
+    border: 4px solid #999;
+    perspective: 200px;
+}
+
+.card .card__child {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    color: white;
+
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.card-1 {
+    animation-name: xAxis;
+}
+
+.card-2 {
+    animation-name: yAxis;
+}
+
+.card-3 {
+    animation-name: zAxis;
+}
+
+@keyframes xAxis {
+    from {
+        transform: translateX(-20px);
+    }
+
+    to {
+        transform: translateX(20px);
+    }
+}
+
+@keyframes yAxis {
+    from {
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
+
+@keyframes zAxis {
+    from {
+        transform: translateZ(-20px);
+    }
+
+    to {
+        transform: translateZ(20px);
+    }
+}
