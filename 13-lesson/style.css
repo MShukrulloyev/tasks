@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #e6eff6;
+}
+
+section {
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    overflow: hidden;
+    margin: 5vw;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.head,
+.foot__left,
+.foot__right {
+    padding: 30px;
+}
+
+.head h1 {
+    color: #5bb9b5;
+}
+
+.head h2 {
+    margin-top: 17px;
+    color: #c4d75f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.head p {
+    margin-top: 12px;
+    font-weight: 500;
+    color: #babdc6;
+}
+
+.foot__left,
+.foot__right {
+    width: 50%;
+}
+
+.foot__left {
+    background-color: #2bb3b1;
+}
+
+.foot__right {
+    background-color: #4abebd;
+}
+
+.foot__right p {
+    width: 80%;
+    margin-top: 15px;
+}
+
+.foot {
+    display: flex;
+    color: white;
+}
+
+.foot h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.foot .p-sm {
+    color: rgba(255, 255, 255, .5);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.price span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #bfdf32;
+    border: none;
+    width: 100%;
+    padding: 13px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+button:hover {
+    background-color: #bfdf32ee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media (max-width: 600px) {
+    section {
+        border-radius: 7px;
+    }
+
+    .foot {
+        flex-direction: column;
+    }
+
+    .head,
+    .foot__left,
+    .foot__right {
+        padding: 30px 20px;
+    }
+
+    .foot__left,
+    .foot__right {
+        width: 100%;
+    }
+}
