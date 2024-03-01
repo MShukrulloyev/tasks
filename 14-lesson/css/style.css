@@ -1,0 +1,113 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* card styles */
+
+.wrapper {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+h2 {
+    font-weight: 400;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: ligth;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    width: 25%;
+    padding: 25px 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+    transition: all .2s;
+}
+
+.card:hover {
+    background-color: #0c6cb0;
+}
+
+
+.card:hover .card-img {
+    transform: scale(1.1);
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: inherit;
+    position: absolute;
+    right: -10px;
+    z-index: 10;
+    transform: rotate(45deg);
+}
+
+.card .card-img {
+    width: 80px;
+    transition: all .2s;
+}
+
+.card1 {
+    background-color: #0d7cc2;
+}
+
+.card2 {
+    background-color: #1190e0;
+}
+
+.card3 {
+    background-color: #29a0e9;
+}
+
+.card4 {
+    background-color: #48aded;
+}
+
+@media (max-width: 1100px) {
+    .card {
+        width: 50%;
+    }
+
+    .card2 .square {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .card {
+        width: 100%;
+    }
+
+    .square {
+        display: none;
+    }
+}
