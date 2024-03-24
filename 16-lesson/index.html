@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container-sm">
+            <a href="index.html" class="logo">
+                <img src="imgs/logo.png" alt="logo">
+            </a>
+
+            <div class="overlay" id="overlay" onclick="menuToggle(0)"></div>
+            <button id="menuToggle">
+                <img src="./imgs/hamburger.png" class="openMenu" onclick="menuToggle(1)" />
+            </button>
+            <ul class="menu">
+                <li>
+                    <button id="menuToggle" class="closeMenu" onclick="menuToggle(0)">
+                        &#10005;
+                    </button>
+                </li>
+                <li><a href="#">Why Almonds</a></li>
+                <li><a href="#">Industry</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="container">
+            <h1>Vegan food</h1>
+            <p>Indulge in the vibrant world of vegan cuist Website Name. Discover delicious plant-based recipes
+                crafted with love and intention. From heartysdsd sd mains to decadent desserts, our selection celebrates
+                compassion,
+                sustainability, and vibrant health. Join us on this culinary journey and embrace the power of plants.
+            </p>
+        </div>
+    </main>
+
+    <section class="card-section">
+        <div class="container">
+            <h2>New recipes</h2>
+            <div class="cards">
+                <a href="#">
+                    <div class="card">
+                        <img src="imgs/1.jpg" alt="a plate of roasted brusselsese with a fork on the side">
+                        <div class="textbox">
+                            a plate of roasted brusselsese with a fork on the side
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card">
+                        <img src="imgs/2.jpg" alt="a bowl of soup with a spoon in it">
+                        <div class="textbox">
+                            a bowl of soup with a spoon in it
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card">
+                        <img src="imgs/3.jpg" alt="a person holding a plate with food on it">
+                        <div class="textbox">
+                            a person holding a plate with food on it
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="card">
+                        <img src="imgs/4.jpg" alt="a plate of food">
+                        <div class="textbox">
+                            a plate of food
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Copyright © 2024 Website Name. All rights <a href="#">reserved.</a> </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
